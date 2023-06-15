@@ -1,0 +1,23 @@
+<paths>
+    <!--Read documentation for details about these. They point to different folders-->
+    <cache-path name="cache_pictures" path="/" />
+    <external-files-path name="images" path="images"/>
+    <!--<external-path name="my_docs" path="Documents/"/>-->
+    <!--<external-files-path name="my_docs" path="Documents/" />-->
+    <!--<files-path name="my_docs" path="Documents" />-->
+</paths>
+
+<!--
+<paths>
+<files-path path="images/" name="myimages" />
+</paths>
+
+In this example, the <files-path> tag shares directories within the files/ directory of your app's internal storage.
+The path attribute shares the images/ subdirectory of files/. The name attribute tells the FileProvider
+to add the path segment myimages to content URIs for files in the files/images/ subdirectory.
+
+The <paths> element can have multiple children, each specifying a different directory to share.
+In addition to the <files-path> element, you can use the <external-path> element to share directories
+in external storage, and the <cache-path> element to share directories in your internal cache directory.
+ To learn more about the child elements that specify shared directories, see the FileProvider reference documentation.
+-->
