@@ -103,12 +103,6 @@ fun ImageCaptureTemp(modifier: Modifier) {
         }
     )
 
-    /*if (tempPhotoUri != Uri.EMPTY){
-        val image = context.contentResolver.openInputStream(tempPhotoUri).use { data -> BitmapFactory.decodeStream(data) }
-        Log.i("MyInfo", "image: $image")
-        //Image(bitmap = image!!.asImageBitmap(), contentDescription = null)
-    }*/
-
     Column(
         modifier = modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
